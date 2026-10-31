@@ -1,5 +1,5 @@
 {
-  "version": "0.60h",
+  "version": "0.62c",
   "levels": [
     {
       "levelName": "Training_Level_01_Old",
@@ -1466,15 +1466,620 @@
       ]
     },
     {
-      "levelName": "S1_GarbageChute_Start_01",
+      "levelName": "S3_RottenDuct_Inter_01",
       "levelSideviews": [
-        "S1_GarbageChute_Start_01-sideview1",
-        "S1_GarbageChute_Start_01-sideview2"
+        "S3_RottenDuct_Inter_01-sideview1",
+        "S3_RottenDuct_Inter_01-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "S3_RottenDuct_05",
+      "levelSideviews": [
+        "S3_RottenDuct_05-sideview1",
+        "S3_RottenDuct_05-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "S3_RottenDuct_04",
+      "levelSideviews": [
+        "S3_RottenDuct_04-sideview1",
+        "S3_RottenDuct_04-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "S3_RottenDuct_03",
+      "levelSideviews": [
+        "S3_RottenDuct_03-sideview1",
+        "S3_RottenDuct_03-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "S3_RottenDuct_02",
+      "levelSideviews": [
+        "S3_RottenDuct_02-sideview1",
+        "S3_RottenDuct_02-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "S3_RottenDuct_01",
+      "levelSideviews": [
+        "S3_RottenDuct_01-sideview1",
+        "S3_RottenDuct_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Note",
+          "id": "S3_RottenDuct_01-Note-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "S3_BodyCavity_Outro_01",
+      "levelSideviews": [
+        "S3_BodyCavity_Outro_01-sideview1",
+        "S3_BodyCavity_Outro_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Temp",
+          "id": "S3_BodyCavity_Outro_01-Temp-number1",
+          "num": 1,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "S3_BodyCavity_Outro_01-Note-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "S3_BodyCavity_Outro_01-Note-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "S3_BodyCavity_Outro_01-Note-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_Outro_01-Piton-number5",
+          "num": 5,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_Outro_01-Piton-number6",
+          "num": 6,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_Outro_01-Piton-number7",
+          "num": 7,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_Outro_01-Piton-number8",
+          "num": 8,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_Outro_01-Piton-number9",
+          "num": 9,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_Outro_01-Piton-number10",
+          "num": 10,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_Outro_01-Piton-number11",
+          "num": 11,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_Outro_01-Piton-number12",
+          "num": 12,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "S3_BodyCavity_Outro_01-Can of Beans-number13",
+          "num": 13,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "S3_BodyCavity_Outro_01-Can of Beans-number14",
+          "num": 14,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "S3_BodyCavity_Outro_01-Can of Beans-number15",
+          "num": 15,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "S3_BodyCavity_Outro_01-Can of Beans-number16",
+          "num": 16,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_Outro_01-Piton-number17",
+          "num": 17,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_Outro_01-Piton-number18",
+          "num": 18,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_Outro_01-Piton-number19",
+          "num": 19,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_Outro_01-Piton-number20",
+          "num": 20,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_Outro_01-Piton-number21",
+          "num": 21,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_Outro_01-Piton-number22",
+          "num": 22,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_Outro_01-Piton-number23",
+          "num": 23,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_Outro_01-Piton-number24",
+          "num": 24,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_Outro_01-Piton-number25",
+          "num": 25,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_Outro_01-Piton-number26",
+          "num": 26,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_Outro_01-Piton-number27",
+          "num": 27,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_Outro_01-Piton-number28",
+          "num": 28,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "S3_BodyCavity_Exit",
+      "levelSideviews": [
+        "S3_BodyCavity_Exit-sideview1",
+        "S3_BodyCavity_Exit-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Note",
+          "id": "S3_BodyCavity_Exit-Note-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Flashlight",
+          "id": "S3_BodyCavity_Exit-Flashlight-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
+          ]
+        },
+        {
+          "name": "Flashlight",
+          "id": "S3_BodyCavity_Exit-Flashlight-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "S3_BodyCavity_Entrance",
+      "levelSideviews": [
+        "S3_BodyCavity_Entrance-sideview1",
+        "S3_BodyCavity_Entrance-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Note",
+          "id": "S3_BodyCavity_Entrance-Note-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Flashlight",
+          "id": "S3_BodyCavity_Entrance-Flashlight-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
+          ]
+        },
+        {
+          "name": "Flashlight",
+          "id": "S3_BodyCavity_Entrance-Flashlight-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "S3_BodyCavity_Chase_01",
+      "levelSideviews": [
+        "S3_BodyCavity_Chase_01-sideview1",
+        "S3_BodyCavity_Chase_01-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "S3_BodyCavity_02",
+      "levelSideviews": [
+        "S3_BodyCavity_02-sideview1",
+        "S3_BodyCavity_02-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Handwheel",
+          "id": "S3_BodyCavity_02-Handwheel-number1",
+          "num": 1,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "S3_BodyCavity_02-Note-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "S3_BodyCavity_02-Note-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "S3_BodyCavity_02-Note-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "S3_BodyCavity_02-Note-number5",
+          "num": 5,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "S3_BodyCavity_01",
+      "levelSideviews": [
+        "S3_BodyCavity_01-sideview1",
+        "S3_BodyCavity_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Note",
+          "id": "S3_BodyCavity_01-Note-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "S3_BodyCavity_01-Note-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "S3_BodyCavity_01-Note-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "S3_BodyCavity_01-Note-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "S3_BodyCavity_01-Note-number5",
+          "num": 5,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "S3_BodyCavity_01-Note-number6",
+          "num": 6,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "S3_BodyCavity_01-Note-number7",
+          "num": 7,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Key",
+          "id": "S3_BodyCavity_01-Key-number8",
+          "num": 8,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Key",
+          "id": "S3_BodyCavity_01-Key-number9",
+          "num": 9,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "S3_BodyCavity_01-Rebar-number10",
+          "num": 10,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "S3_BodyCavity_01-Rebar-number11",
+          "num": 11,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_01-Piton-number12",
+          "num": 12,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_01-Piton-number13",
+          "num": 13,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_01-Piton-number14",
+          "num": 14,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "S3_BodyCavity_01-Piton-number15",
+          "num": 15,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "S2_GarbageChute_Start_01",
+      "levelSideviews": [
+        "S2_GarbageChute_Start_01-sideview1",
+        "S2_GarbageChute_Start_01-sideview2"
       ],
       "items": [
         {
           "name": "Piton",
-          "id": "S1_GarbageChute_Start_01-Piton-number1",
+          "id": "S2_GarbageChute_Start_01-Piton-number1",
           "num": 1,
           "spawnchance": "",
           "textdata": [
@@ -1483,7 +2088,7 @@
         },
         {
           "name": "Can of Beans",
-          "id": "S1_GarbageChute_Start_01-Can of Beans-number2",
+          "id": "S2_GarbageChute_Start_01-Can of Beans-number2",
           "num": 2,
           "spawnchance": "",
           "textdata": [
@@ -1492,7 +2097,7 @@
         },
         {
           "name": "Rebar",
-          "id": "S1_GarbageChute_Start_01-Rebar-number3",
+          "id": "S2_GarbageChute_Start_01-Rebar-number3",
           "num": 3,
           "spawnchance": "29.4",
           "textdata": [
@@ -1502,15 +2107,15 @@
       ]
     },
     {
-      "levelName": "S1_GarbageChute_End_01",
+      "levelName": "S2_GarbageChute_End_01",
       "levelSideviews": [
-        "S1_GarbageChute_End_01-sideview1",
-        "S1_GarbageChute_End_01-sideview2"
+        "S2_GarbageChute_End_01-sideview1",
+        "S2_GarbageChute_End_01-sideview2"
       ],
       "items": [
         {
           "name": "Can of Beans",
-          "id": "S1_GarbageChute_End_01-Can of Beans-number1",
+          "id": "S2_GarbageChute_End_01-Can of Beans-number1",
           "num": 1,
           "spawnchance": "",
           "textdata": [
@@ -1519,7 +2124,7 @@
         },
         {
           "name": "Piton",
-          "id": "S1_GarbageChute_End_01-Piton-number2",
+          "id": "S2_GarbageChute_End_01-Piton-number2",
           "num": 2,
           "spawnchance": "100",
           "textdata": [
@@ -1528,7 +2133,7 @@
         },
         {
           "name": "Rebar",
-          "id": "S1_GarbageChute_End_01-Rebar-number3",
+          "id": "S2_GarbageChute_End_01-Rebar-number3",
           "num": 3,
           "spawnchance": "100",
           "textdata": [
@@ -1537,7 +2142,7 @@
         },
         {
           "name": "Rebar",
-          "id": "S1_GarbageChute_End_01-Rebar-number4",
+          "id": "S2_GarbageChute_End_01-Rebar-number4",
           "num": 4,
           "spawnchance": "100",
           "textdata": [
@@ -1547,15 +2152,15 @@
       ]
     },
     {
-      "levelName": "S1_GarbageChute_06",
+      "levelName": "S2_GarbageChute_06",
       "levelSideviews": [
-        "S1_GarbageChute_06-sideview1",
-        "S1_GarbageChute_06-sideview2"
+        "S2_GarbageChute_06-sideview1",
+        "S2_GarbageChute_06-sideview2"
       ],
       "items": [
         {
           "name": "Rebar",
-          "id": "S1_GarbageChute_06-Rebar-number1",
+          "id": "S2_GarbageChute_06-Rebar-number1",
           "num": 1,
           "spawnchance": "51.4",
           "textdata": [
@@ -1564,7 +2169,7 @@
         },
         {
           "name": "Rebar",
-          "id": "S1_GarbageChute_06-Rebar-number2",
+          "id": "S2_GarbageChute_06-Rebar-number2",
           "num": 2,
           "spawnchance": "52",
           "textdata": [
@@ -1574,15 +2179,15 @@
       ]
     },
     {
-      "levelName": "S1_GarbageChute_05",
+      "levelName": "S2_GarbageChute_05",
       "levelSideviews": [
-        "S1_GarbageChute_05-sideview1",
-        "S1_GarbageChute_05-sideview2"
+        "S2_GarbageChute_05-sideview1",
+        "S2_GarbageChute_05-sideview2"
       ],
       "items": [
         {
           "name": "Rebar",
-          "id": "S1_GarbageChute_05-Rebar-number1",
+          "id": "S2_GarbageChute_05-Rebar-number1",
           "num": 1,
           "spawnchance": "51.4",
           "textdata": [
@@ -1591,7 +2196,7 @@
         },
         {
           "name": "Rebar",
-          "id": "S1_GarbageChute_05-Rebar-number2",
+          "id": "S2_GarbageChute_05-Rebar-number2",
           "num": 2,
           "spawnchance": "52",
           "textdata": [
@@ -1601,15 +2206,15 @@
       ]
     },
     {
-      "levelName": "S1_GarbageChute_04",
+      "levelName": "S2_GarbageChute_04",
       "levelSideviews": [
-        "S1_GarbageChute_04-sideview1",
-        "S1_GarbageChute_04-sideview2"
+        "S2_GarbageChute_04-sideview1",
+        "S2_GarbageChute_04-sideview2"
       ],
       "items": [
         {
           "name": "Can of Beans",
-          "id": "S1_GarbageChute_04-Can of Beans-number1",
+          "id": "S2_GarbageChute_04-Can of Beans-number1",
           "num": 1,
           "spawnchance": "",
           "textdata": [
@@ -1619,15 +2224,15 @@
       ]
     },
     {
-      "levelName": "S1_GarbageChute_03",
+      "levelName": "S2_GarbageChute_03",
       "levelSideviews": [
-        "S1_GarbageChute_03-sideview1",
-        "S1_GarbageChute_03-sideview2"
+        "S2_GarbageChute_03-sideview1",
+        "S2_GarbageChute_03-sideview2"
       ],
       "items": [
         {
           "name": "Can of Beans",
-          "id": "S1_GarbageChute_03-Can of Beans-number1",
+          "id": "S2_GarbageChute_03-Can of Beans-number1",
           "num": 1,
           "spawnchance": "",
           "textdata": [
@@ -1637,15 +2242,15 @@
       ]
     },
     {
-      "levelName": "S1_GarbageChute_02",
+      "levelName": "S2_GarbageChute_02",
       "levelSideviews": [
-        "S1_GarbageChute_02-sideview1",
-        "S1_GarbageChute_02-sideview2"
+        "S2_GarbageChute_02-sideview1",
+        "S2_GarbageChute_02-sideview2"
       ],
       "items": [
         {
           "name": "Can of Beans",
-          "id": "S1_GarbageChute_02-Can of Beans-number1",
+          "id": "S2_GarbageChute_02-Can of Beans-number1",
           "num": 1,
           "spawnchance": "",
           "textdata": [
@@ -1655,15 +2260,15 @@
       ]
     },
     {
-      "levelName": "S1_GarbageChute_01",
+      "levelName": "S2_GarbageChute_01",
       "levelSideviews": [
-        "S1_GarbageChute_01-sideview1",
-        "S1_GarbageChute_01-sideview2"
+        "S2_GarbageChute_01-sideview1",
+        "S2_GarbageChute_01-sideview2"
       ],
       "items": [
         {
           "name": "Piton",
-          "id": "S1_GarbageChute_01-Piton-number1",
+          "id": "S2_GarbageChute_01-Piton-number1",
           "num": 1,
           "spawnchance": "",
           "textdata": [
@@ -1672,7 +2277,7 @@
         },
         {
           "name": "Can of Beans",
-          "id": "S1_GarbageChute_01-Can of Beans-number2",
+          "id": "S2_GarbageChute_01-Can of Beans-number2",
           "num": 2,
           "spawnchance": "",
           "textdata": [
@@ -1681,7 +2286,7 @@
         },
         {
           "name": "Rebar",
-          "id": "S1_GarbageChute_01-Rebar-number3",
+          "id": "S2_GarbageChute_01-Rebar-number3",
           "num": 3,
           "spawnchance": "29.4",
           "textdata": [
@@ -3492,9 +4097,18 @@
           ]
         },
         {
-          "name": "Table Spawner",
-          "id": "MX_Playground-spawntable-number15",
+          "name": "Floppy Disk",
+          "id": "MX_Playground-Floppy Disk-number15",
           "num": 15,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Table Spawner",
+          "id": "MX_Playground-spawntable-number16",
+          "num": 16,
           "spawnchance": "N/A",
           "textdata": [
             "Spawns 2 to 3 items",
@@ -3510,15 +4124,6 @@
         },
         {
           "name": "Flare Crate",
-          "id": "MX_Playground-Flare Crate-number16",
-          "num": 16,
-          "spawnchance": "N/A",
-          "textdata": [
-            "No chance data (yet)"
-          ]
-        },
-        {
-          "name": "Flare Crate",
           "id": "MX_Playground-Flare Crate-number17",
           "num": 17,
           "spawnchance": "N/A",
@@ -3527,8 +4132,8 @@
           ]
         },
         {
-          "name": "Supply Crate",
-          "id": "MX_Playground-Supply Crate-number18",
+          "name": "Flare Crate",
+          "id": "MX_Playground-Flare Crate-number18",
           "num": 18,
           "spawnchance": "N/A",
           "textdata": [
@@ -3539,6 +4144,15 @@
           "name": "Supply Crate",
           "id": "MX_Playground-Supply Crate-number19",
           "num": 19,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "MX_Playground-Supply Crate-number20",
+          "num": 20,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -3640,21 +4254,6 @@
           "spawnchance": "6.9",
           "textdata": [
             "Spawn chance: 0.069"
-          ]
-        },
-        {
-          "name": "Table Spawner",
-          "id": "M3_Habitation_Lab_Lobby-spawntable-number10",
-          "num": 10,
-          "spawnchance": "N/A",
-          "textdata": [
-            "Spawns 6 to 8 items",
-            "Set 1 (28.2%): Denizen_Roach",
-            "Set 2 (164%): Roach",
-            "Set 3 (42.4%): Roach",
-            "Set 4 (3.9%): Denizen_Roach_Explosive",
-            "Set 5 (100%): Roach",
-            "Set 6 (100%): Roach"
           ]
         }
       ]
@@ -4054,8 +4653,8 @@
           ]
         },
         {
-          "name": "Rubble",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Rubble-number4",
+          "name": "Rebar-Explosive",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Rebar-Explosive-number4",
           "num": 4,
           "spawnchance": "100",
           "textdata": [
@@ -4063,8 +4662,8 @@
           ]
         },
         {
-          "name": "Rubble",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Rubble-number5",
+          "name": "Rebar-Explosive",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Rebar-Explosive-number5",
           "num": 5,
           "spawnchance": "100",
           "textdata": [
@@ -4090,17 +4689,17 @@
           ]
         },
         {
-          "name": "Rebar",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Rebar-number8",
+          "name": "Rubble",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Rubble-number8",
           "num": 8,
-          "spawnchance": "",
+          "spawnchance": "100",
           "textdata": [
-            "No spawn chance found."
+            "Spawn chance: 1"
           ]
         },
         {
-          "name": "SlugGrub",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-SlugGrub-number9",
+          "name": "Rubble",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Rubble-number9",
           "num": 9,
           "spawnchance": "100",
           "textdata": [
@@ -4108,26 +4707,26 @@
           ]
         },
         {
-          "name": "Floppy Disk",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Floppy Disk-number10",
+          "name": "Rebar",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Rebar-number10",
           "num": 10,
-          "spawnchance": "100",
-          "textdata": [
-            "Spawn chance: 1"
-          ]
-        },
-        {
-          "name": "Piton",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Piton-number11",
-          "num": 11,
           "spawnchance": "",
           "textdata": [
             "No spawn chance found."
           ]
         },
         {
-          "name": "Rebar",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Rebar-number12",
+          "name": "SlugGrub",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-SlugGrub-number11",
+          "num": 11,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Floppy Disk",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Floppy Disk-number12",
           "num": 12,
           "spawnchance": "100",
           "textdata": [
@@ -4135,18 +4734,36 @@
           ]
         },
         {
-          "name": "Bean Bar",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Bean Bar-number13",
+          "name": "Piton",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Piton-number13",
           "num": 13,
-          "spawnchance": "100",
+          "spawnchance": "",
           "textdata": [
-            "Spawn chance: 1"
+            "No spawn chance found."
           ]
         },
         {
-          "name": "Can of Beans",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Can of Beans-number14",
+          "name": "Rebar",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Rebar-number14",
           "num": 14,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Bean Bar",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Bean Bar-number15",
+          "num": 15,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Can of Beans-number16",
+          "num": 16,
           "spawnchance": "",
           "textdata": [
             "No spawn chance found."
@@ -4154,29 +4771,11 @@
         },
         {
           "name": "Can of Beans",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Can of Beans-number15",
-          "num": 15,
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Can of Beans-number17",
+          "num": 17,
           "spawnchance": "",
           "textdata": [
             "No spawn chance found."
-          ]
-        },
-        {
-          "name": "Note",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Note-number16",
-          "num": 16,
-          "spawnchance": "100",
-          "textdata": [
-            "Spawn chance: 1"
-          ]
-        },
-        {
-          "name": "Note",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Note-number17",
-          "num": 17,
-          "spawnchance": "100",
-          "textdata": [
-            "Spawn chance: 1"
           ]
         },
         {
@@ -4189,26 +4788,26 @@
           ]
         },
         {
-          "name": "Rebar",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Rebar-number19",
+          "name": "SlugGrub",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-SlugGrub-number19",
           "num": 19,
-          "spawnchance": "",
+          "spawnchance": "100",
           "textdata": [
-            "No spawn chance found."
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Floppy Disk",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Floppy Disk-number20",
+          "num": 20,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
           ]
         },
         {
           "name": "Piton",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Piton-number20",
-          "num": 20,
-          "spawnchance": "",
-          "textdata": [
-            "No spawn chance found."
-          ]
-        },
-        {
-          "name": "Can of Beans",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Can of Beans-number21",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Piton-number21",
           "num": 21,
           "spawnchance": "",
           "textdata": [
@@ -4216,26 +4815,26 @@
           ]
         },
         {
-          "name": "Piton",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Piton-number22",
+          "name": "Rebar",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Rebar-number22",
           "num": 22,
-          "spawnchance": "",
+          "spawnchance": "100",
           "textdata": [
-            "No spawn chance found."
+            "Spawn chance: 1"
           ]
         },
         {
-          "name": "Piton",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Piton-number23",
+          "name": "Bean Bar",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Bean Bar-number23",
           "num": 23,
-          "spawnchance": "",
+          "spawnchance": "100",
           "textdata": [
-            "No spawn chance found."
+            "Spawn chance: 1"
           ]
         },
         {
-          "name": "Piton",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Piton-number24",
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Can of Beans-number24",
           "num": 24,
           "spawnchance": "",
           "textdata": [
@@ -4243,8 +4842,8 @@
           ]
         },
         {
-          "name": "Piton",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Piton-number25",
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Can of Beans-number25",
           "num": 25,
           "spawnchance": "",
           "textdata": [
@@ -4252,64 +4851,9 @@
           ]
         },
         {
-          "name": "Auto Piton",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Auto Piton-number26",
+          "name": "Note",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Note-number26",
           "num": 26,
-          "spawnchance": "29.6",
-          "textdata": [
-            "Spawn chance: 0.296",
-            "Chance modified by difficulty, cant visualize yet"
-          ]
-        },
-        {
-          "name": "Rebar",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Rebar-number27",
-          "num": 27,
-          "spawnchance": "43.9",
-          "textdata": [
-            "Spawn chance: 0.439"
-          ]
-        },
-        {
-          "name": "Piton",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Piton-number28",
-          "num": 28,
-          "spawnchance": "",
-          "textdata": [
-            "No spawn chance found."
-          ]
-        },
-        {
-          "name": "Floppy Disk",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Floppy Disk-number29",
-          "num": 29,
-          "spawnchance": "100",
-          "textdata": [
-            "Spawn chance: 1"
-          ]
-        },
-        {
-          "name": "Injector",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Injector-number30",
-          "num": 30,
-          "spawnchance": "100",
-          "textdata": [
-            "Spawn chance: 1"
-          ]
-        },
-        {
-          "name": "Piton",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Piton-number31",
-          "num": 31,
-          "spawnchance": "",
-          "textdata": [
-            "No spawn chance found."
-          ]
-        },
-        {
-          "name": "Injector",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Injector-number32",
-          "num": 32,
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -4317,16 +4861,70 @@
         },
         {
           "name": "Note",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Note-number33",
-          "num": 33,
-          "spawnchance": "6.6",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Note-number27",
+          "num": 27,
+          "spawnchance": "100",
           "textdata": [
-            "Spawn chance: 0.066"
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Note-number28",
+          "num": 28,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Note-number29",
+          "num": 29,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Rebar-number30",
+          "num": 30,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Rebar-number31",
+          "num": 31,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Piton-number32",
+          "num": 32,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
           ]
         },
         {
           "name": "Can of Beans",
-          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Can of Beans-number34",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Can of Beans-number33",
+          "num": 33,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Piton-number34",
           "num": 34,
           "spawnchance": "",
           "textdata": [
@@ -4337,6 +4935,115 @@
           "name": "Piton",
           "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Piton-number35",
           "num": 35,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Piton-number36",
+          "num": 36,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Piton-number37",
+          "num": 37,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Auto Piton",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Auto Piton-number38",
+          "num": 38,
+          "spawnchance": "29.6",
+          "textdata": [
+            "Spawn chance: 0.296",
+            "Chance modified by difficulty, cant visualize yet"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Rebar-number39",
+          "num": 39,
+          "spawnchance": "43.9",
+          "textdata": [
+            "Spawn chance: 0.439"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Piton-number40",
+          "num": 40,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Floppy Disk",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Floppy Disk-number41",
+          "num": 41,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Injector",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Injector-number42",
+          "num": 42,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Piton-number43",
+          "num": 43,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Injector",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Injector-number44",
+          "num": 44,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Note-number45",
+          "num": 45,
+          "spawnchance": "6.6",
+          "textdata": [
+            "Spawn chance: 0.066"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Can of Beans-number46",
+          "num": 46,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "Campaign_Interlude_Pipeworks_To_Habitation_01_Old-Piton-number47",
+          "num": 47,
           "spawnchance": "",
           "textdata": [
             "No spawn chance found."
@@ -4512,6 +5219,106 @@
           "spawnchance": "",
           "textdata": [
             "No spawn chance found."
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Campaign_Interlude_Diver_To_Nest_SafeArea_01",
+      "levelSideviews": [
+        "Campaign_Interlude_Diver_To_Nest_SafeArea_01-sideview1",
+        "Campaign_Interlude_Diver_To_Nest_SafeArea_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Trinket_Beta",
+          "id": "Campaign_Interlude_Diver_To_Nest_SafeArea_01-Trinket_Beta-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Must not have flags: haspickedup_i4pouch"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "Campaign_Interlude_Diver_To_Nest_SafeArea_01-10mm Ammo-number2",
+          "num": 2,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "Campaign_Interlude_Diver_To_Nest_SafeArea_01-10mm Ammo-number3",
+          "num": 3,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Handgun",
+          "id": "Campaign_Interlude_Diver_To_Nest_SafeArea_01-Handgun-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "flaregun",
+          "id": "Campaign_Interlude_Diver_To_Nest_SafeArea_01-flaregun-number5",
+          "num": 5,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "Campaign_Interlude_Diver_To_Nest_SafeArea_01-Flare Crate-number6",
+          "num": 6,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Campaign_Interlude_Diver_To_Nest_Intro_01",
+      "levelSideviews": [
+        "Campaign_Interlude_Diver_To_Nest_Intro_01-sideview1",
+        "Campaign_Interlude_Diver_To_Nest_Intro_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Powercell",
+          "id": "Campaign_Interlude_Diver_To_Nest_Intro_01-Powercell-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Powercell",
+          "id": "Campaign_Interlude_Diver_To_Nest_Intro_01-Powercell-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Powercell",
+          "id": "Campaign_Interlude_Diver_To_Nest_Intro_01-Powercell-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
           ]
         }
       ]
@@ -4705,16 +5512,14 @@
           "name": "Can of Beans",
           "id": "Campaign_Interlude_Silo_To_Pipeworks_01-Can of Beans-number12",
           "num": 12,
-          "spawnchance": "100",
+          "spawnchance": "",
           "textdata": [
-            "Spawn chance: 1",
-            "Does not spawn on load.",
-            "Likely uses a trigger or otherwise."
+            "No spawn chance found."
           ]
         },
         {
-          "name": "Bean Bar",
-          "id": "Campaign_Interlude_Silo_To_Pipeworks_01-Bean Bar-number13",
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Silo_To_Pipeworks_01-Can of Beans-number13",
           "num": 13,
           "spawnchance": "100",
           "textdata": [
@@ -4724,9 +5529,20 @@
           ]
         },
         {
-          "name": "Can of Beans",
-          "id": "Campaign_Interlude_Silo_To_Pipeworks_01-Can of Beans-number14",
+          "name": "Bean Bar",
+          "id": "Campaign_Interlude_Silo_To_Pipeworks_01-Bean Bar-number14",
           "num": 14,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Silo_To_Pipeworks_01-Can of Beans-number15",
+          "num": 15,
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -4734,8 +5550,8 @@
         },
         {
           "name": "Supply Crate",
-          "id": "Campaign_Interlude_Silo_To_Pipeworks_01-Supply Crate-number15",
-          "num": 15,
+          "id": "Campaign_Interlude_Silo_To_Pipeworks_01-Supply Crate-number16",
+          "num": 16,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -4760,19 +5576,17 @@
           ]
         },
         {
-          "name": "Rho Stone",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Rho Stone-number2",
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number2",
           "num": 2,
-          "spawnchance": "100",
+          "spawnchance": "",
           "textdata": [
-            "Spawn chance: 1",
-            "Chance hard mode multiplier: 0",
-            "Hard mode only: No"
+            "No spawn chance found."
           ]
         },
         {
-          "name": "Note",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Note-number3",
+          "name": "Rho Stone",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Rho Stone-number3",
           "num": 3,
           "spawnchance": "100",
           "textdata": [
@@ -4782,17 +5596,19 @@
           ]
         },
         {
-          "name": "Bean Bar",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Bean Bar-number4",
+          "name": "Note",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Note-number4",
           "num": 4,
-          "spawnchance": "73.9",
+          "spawnchance": "100",
           "textdata": [
-            "Spawn chance: 0.739"
+            "Spawn chance: 1",
+            "Chance hard mode multiplier: 0",
+            "Hard mode only: No"
           ]
         },
         {
-          "name": "Rebar",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Rebar-number5",
+          "name": "Note",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Note-number5",
           "num": 5,
           "spawnchance": "100",
           "textdata": [
@@ -4800,17 +5616,17 @@
           ]
         },
         {
-          "name": "Piton",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Piton-number6",
+          "name": "Bean Bar",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Bean Bar-number6",
           "num": 6,
-          "spawnchance": "100",
+          "spawnchance": "73.9",
           "textdata": [
-            "Spawn chance: 1"
+            "Spawn chance: 0.739"
           ]
         },
         {
-          "name": "Piton",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Piton-number7",
+          "name": "Rebar",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Rebar-number7",
           "num": 7,
           "spawnchance": "100",
           "textdata": [
@@ -4818,8 +5634,8 @@
           ]
         },
         {
-          "name": "Can of Beans",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number8",
+          "name": "Piton",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Piton-number8",
           "num": 8,
           "spawnchance": "100",
           "textdata": [
@@ -4827,12 +5643,12 @@
           ]
         },
         {
-          "name": "Can of Beans",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number9",
+          "name": "Piton",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Piton-number9",
           "num": 9,
-          "spawnchance": "54.5",
+          "spawnchance": "100",
           "textdata": [
-            "Spawn chance: 0.545"
+            "Spawn chance: 1"
           ]
         },
         {
@@ -4845,17 +5661,17 @@
           ]
         },
         {
-          "name": "flaregun",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-flaregun-number11",
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number11",
           "num": 11,
-          "spawnchance": "100",
+          "spawnchance": "54.5",
           "textdata": [
-            "Spawn chance: 1"
+            "Spawn chance: 0.545"
           ]
         },
         {
-          "name": "Flashlight",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Flashlight-number12",
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Can of Beans-number12",
           "num": 12,
           "spawnchance": "100",
           "textdata": [
@@ -4863,9 +5679,27 @@
           ]
         },
         {
-          "name": "Flare Crate",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Flare Crate-number13",
+          "name": "flaregun",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-flaregun-number13",
           "num": 13,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Flashlight",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Flashlight-number14",
+          "num": 14,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Flare Crate-number15",
+          "num": 15,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -4873,8 +5707,119 @@
         },
         {
           "name": "Supply Crate",
-          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Supply Crate-number14",
-          "num": 14,
+          "id": "Campaign_Interlude_Habitation_To_Abyss_01-Supply Crate-number16",
+          "num": 16,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Campaign_Interlude_Duct_To_Abyss_01",
+      "levelSideviews": [
+        "Campaign_Interlude_Duct_To_Abyss_01-sideview1",
+        "Campaign_Interlude_Duct_To_Abyss_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Note",
+          "id": "Campaign_Interlude_Duct_To_Abyss_01-Note-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "Campaign_Interlude_Duct_To_Abyss_01-Note-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "flaregun",
+          "id": "Campaign_Interlude_Duct_To_Abyss_01-flaregun-number3",
+          "num": 3,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Flashlight",
+          "id": "Campaign_Interlude_Duct_To_Abyss_01-Flashlight-number4",
+          "num": 4,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Duct_To_Abyss_01-Can of Beans-number5",
+          "num": 5,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Duct_To_Abyss_01-Can of Beans-number6",
+          "num": 6,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Auto Piton",
+          "id": "Campaign_Interlude_Duct_To_Abyss_01-Auto Piton-number7",
+          "num": 7,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Table Spawner",
+          "id": "Campaign_Interlude_Duct_To_Abyss_01-spawntable-number8",
+          "num": 8,
+          "spawnchance": "N/A",
+          "textdata": [
+            "Spawns 1 to 1 items",
+            "Set 1 (100%): Artifact Glove",
+            "Set 2 (100%): Rapier",
+            "Set 3 (100%): Artifact Remote",
+            "Set 4 (100%): Timepiece",
+            "Set 5 (100%): Translocator",
+            "Set 6 (100%): Rebar"
+          ]
+        },
+        {
+          "name": "Table Spawner",
+          "id": "Campaign_Interlude_Duct_To_Abyss_01-spawntable-number9",
+          "num": 9,
+          "spawnchance": "N/A",
+          "textdata": [
+            "Spawns 1 to 1 items",
+            "Set 1 (100%): Note",
+            "Set 2 (100%): Note",
+            "Set 3 (100%): Note",
+            "Set 4 (100%): Note",
+            "Set 5 (100%): Note",
+            "Set 6 (100%): Note"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "Campaign_Interlude_Duct_To_Abyss_01-Flare Crate-number10",
+          "num": 10,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -4964,6 +5909,14 @@
       ]
     },
     {
+      "levelName": "Campaign_Interlude_Abyss_To_Nest_IntroClimb_02",
+      "levelSideviews": [
+        "Campaign_Interlude_Abyss_To_Nest_IntroClimb_02-sideview1",
+        "Campaign_Interlude_Abyss_To_Nest_IntroClimb_02-sideview2"
+      ],
+      "items": []
+    },
+    {
       "levelName": "Campaign_Interlude_Abyss_To_Nest_IntroClimb_01",
       "levelSideviews": [
         "Campaign_Interlude_Abyss_To_Nest_IntroClimb_01-sideview1",
@@ -5038,22 +5991,18 @@
           "name": "Can of Beans",
           "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Can of Beans-number7",
           "num": 7,
-          "spawnchance": "100",
+          "spawnchance": "",
           "textdata": [
-            "Spawn chance: 1",
-            "Does not spawn on load.",
-            "Likely uses a trigger or otherwise."
+            "No spawn chance found."
           ]
         },
         {
-          "name": "Bean Bar",
-          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Bean Bar-number8",
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Can of Beans-number8",
           "num": 8,
-          "spawnchance": "100",
+          "spawnchance": "",
           "textdata": [
-            "Spawn chance: 1",
-            "Does not spawn on load.",
-            "Likely uses a trigger or otherwise."
+            "No spawn chance found."
           ]
         },
         {
@@ -5068,26 +6017,30 @@
           ]
         },
         {
-          "name": "Piton",
-          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Piton-number10",
+          "name": "Bean Bar",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Bean Bar-number10",
           "num": 10,
           "spawnchance": "100",
           "textdata": [
-            "Spawn chance: 1"
-          ]
-        },
-        {
-          "name": "Piton",
-          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Piton-number11",
-          "num": 11,
-          "spawnchance": "100",
-          "textdata": [
-            "Spawn chance: 1"
+            "Spawn chance: 1",
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
           ]
         },
         {
           "name": "Can of Beans",
-          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Can of Beans-number12",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Can of Beans-number11",
+          "num": 11,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Piton-number12",
           "num": 12,
           "spawnchance": "100",
           "textdata": [
@@ -5095,8 +6048,8 @@
           ]
         },
         {
-          "name": "Can of Beans",
-          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Can of Beans-number13",
+          "name": "Piton",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Piton-number13",
           "num": 13,
           "spawnchance": "100",
           "textdata": [
@@ -5104,8 +6057,8 @@
           ]
         },
         {
-          "name": "Rebar",
-          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Rebar-number14",
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Can of Beans-number14",
           "num": 14,
           "spawnchance": "100",
           "textdata": [
@@ -5122,8 +6075,8 @@
           ]
         },
         {
-          "name": "SlugGrub",
-          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-SlugGrub-number16",
+          "name": "Rebar",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Rebar-number16",
           "num": 16,
           "spawnchance": "100",
           "textdata": [
@@ -5131,8 +6084,8 @@
           ]
         },
         {
-          "name": "Blink Eye",
-          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Blink Eye-number17",
+          "name": "Can of Beans",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Can of Beans-number17",
           "num": 17,
           "spawnchance": "100",
           "textdata": [
@@ -5140,8 +6093,8 @@
           ]
         },
         {
-          "name": "Injector",
-          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Injector-number18",
+          "name": "SlugGrub",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-SlugGrub-number18",
           "num": 18,
           "spawnchance": "100",
           "textdata": [
@@ -5149,8 +6102,8 @@
           ]
         },
         {
-          "name": "flaregun",
-          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-flaregun-number19",
+          "name": "Blink Eye",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Blink Eye-number19",
           "num": 19,
           "spawnchance": "100",
           "textdata": [
@@ -5158,8 +6111,8 @@
           ]
         },
         {
-          "name": "Flashlight",
-          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Flashlight-number20",
+          "name": "Injector",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Injector-number20",
           "num": 20,
           "spawnchance": "100",
           "textdata": [
@@ -5167,8 +6120,8 @@
           ]
         },
         {
-          "name": "Roach",
-          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Roach-number21",
+          "name": "flaregun",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-flaregun-number21",
           "num": 21,
           "spawnchance": "100",
           "textdata": [
@@ -5176,8 +6129,8 @@
           ]
         },
         {
-          "name": "Roach",
-          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Roach-number22",
+          "name": "Flashlight",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Flashlight-number22",
           "num": 22,
           "spawnchance": "100",
           "textdata": [
@@ -5185,9 +6138,27 @@
           ]
         },
         {
-          "name": "Table Spawner",
-          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-spawntable-number23",
+          "name": "Roach",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Roach-number23",
           "num": 23,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Roach",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Roach-number24",
+          "num": 24,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Table Spawner",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-spawntable-number25",
+          "num": 25,
           "spawnchance": "N/A",
           "textdata": [
             "Spawns 6 to 8 items",
@@ -5201,24 +6172,6 @@
         },
         {
           "name": "Supply Crate",
-          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Supply Crate-number24",
-          "num": 24,
-          "spawnchance": "N/A",
-          "textdata": [
-            "No chance data (yet)"
-          ]
-        },
-        {
-          "name": "Supply Crate",
-          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Supply Crate-number25",
-          "num": 25,
-          "spawnchance": "N/A",
-          "textdata": [
-            "No chance data (yet)"
-          ]
-        },
-        {
-          "name": "Supply Crate",
           "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Supply Crate-number26",
           "num": 26,
           "spawnchance": "N/A",
@@ -5227,9 +6180,27 @@
           ]
         },
         {
-          "name": "Flare Crate",
-          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Flare Crate-number27",
+          "name": "Supply Crate",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Supply Crate-number27",
           "num": 27,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Supply Crate-number28",
+          "num": 28,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Flare Crate",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_SafeArea-Flare Crate-number29",
+          "num": 29,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -5292,6 +6263,33 @@
       ]
     },
     {
+      "levelName": "Campaign_Interlude_Abyss_To_Nest_01_Prison_AltEntrance",
+      "levelSideviews": [
+        "Campaign_Interlude_Abyss_To_Nest_01_Prison_AltEntrance-sideview1",
+        "Campaign_Interlude_Abyss_To_Nest_01_Prison_AltEntrance-sideview2"
+      ],
+      "items": [
+        {
+          "name": "10mm Ammo",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_Prison_AltEntrance-10mm Ammo-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "10mm Ammo",
+          "id": "Campaign_Interlude_Abyss_To_Nest_01_Prison_AltEntrance-10mm Ammo-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
       "levelName": "Campaign_Interlude_Abyss_To_Nest_01_Prison",
       "levelSideviews": [
         "Campaign_Interlude_Abyss_To_Nest_01_Prison-sideview1",
@@ -5327,10 +6325,26 @@
       "items": []
     },
     {
+      "levelName": "Dev_Test_01",
+      "levelSideviews": [
+        "Dev_Test_01-sideview1",
+        "Dev_Test_01-sideview2"
+      ],
+      "items": []
+    },
+    {
       "levelName": "Dev_Shaft_01",
       "levelSideviews": [
         "Dev_Shaft_01-sideview1",
         "Dev_Shaft_01-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "Dev_RatKingShaft_01",
+      "levelSideviews": [
+        "Dev_RatKingShaft_01-sideview1",
+        "Dev_RatKingShaft_01-sideview2"
       ],
       "items": []
     },
@@ -5495,6 +6509,14 @@
       "items": []
     },
     {
+      "levelName": "M5_Nest_SI4_Skip_Start_01",
+      "levelSideviews": [
+        "M5_Nest_SI4_Skip_Start_01-sideview1",
+        "M5_Nest_SI4_Skip_Start_01-sideview2"
+      ],
+      "items": []
+    },
+    {
       "levelName": "M5_Nest_Infested_HunterIntro_01",
       "levelSideviews": [
         "M5_Nest_Infested_HunterIntro_01-sideview1",
@@ -5518,17 +6540,7 @@
         "M5_Nest_Infested_Entrance_01-sideview1",
         "M5_Nest_Infested_Entrance_01-sideview2"
       ],
-      "items": [
-        {
-          "name": "Injector",
-          "id": "M5_Nest_Infested_Entrance_01-Injector-number1",
-          "num": 1,
-          "spawnchance": "100",
-          "textdata": [
-            "Spawn chance: 1"
-          ]
-        }
-      ]
+      "items": []
     },
     {
       "levelName": "M5_Nest_Infested_Endless_Start_01",
@@ -8497,9 +9509,18 @@
           ]
         },
         {
-          "name": "Supply Crate",
-          "id": "M4_Abyss_Garden_02-Supply Crate-number10",
+          "name": "Flare Crate",
+          "id": "M4_Abyss_Garden_02-Flare Crate-number10",
           "num": 10,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M4_Abyss_Garden_02-Supply Crate-number11",
+          "num": 11,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -8575,15 +9596,6 @@
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
-          ]
-        },
-        {
-          "name": "Flare Crate",
-          "id": "M4_Abyss_Garden_01-Flare Crate-number8",
-          "num": 8,
-          "spawnchance": "N/A",
-          "textdata": [
-            "No chance data (yet)"
           ]
         }
       ]
@@ -9014,6 +10026,24 @@
           "name": "Can of Beans",
           "id": "M3_Habitation_Shaft_Intro-Can of Beans-number5",
           "num": 5,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M3_Habitation_Shaft_Intro-Can of Beans-number6",
+          "num": 6,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M3_Habitation_Shaft_Intro-Can of Beans-number7",
+          "num": 7,
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1",
@@ -9023,8 +10053,8 @@
         },
         {
           "name": "Bean Bar",
-          "id": "M3_Habitation_Shaft_Intro-Bean Bar-number6",
-          "num": 6,
+          "id": "M3_Habitation_Shaft_Intro-Bean Bar-number8",
+          "num": 8,
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1",
@@ -9034,8 +10064,8 @@
         },
         {
           "name": "Can of Beans",
-          "id": "M3_Habitation_Shaft_Intro-Can of Beans-number7",
-          "num": 7,
+          "id": "M3_Habitation_Shaft_Intro-Can of Beans-number9",
+          "num": 9,
           "spawnchance": "73.2",
           "textdata": [
             "Spawn chance: 0.732"
@@ -9043,8 +10073,8 @@
         },
         {
           "name": "Can of Beans",
-          "id": "M3_Habitation_Shaft_Intro-Can of Beans-number8",
-          "num": 8,
+          "id": "M3_Habitation_Shaft_Intro-Can of Beans-number10",
+          "num": 10,
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -9052,8 +10082,8 @@
         },
         {
           "name": "Flare Crate",
-          "id": "M3_Habitation_Shaft_Intro-Flare Crate-number9",
-          "num": 9,
+          "id": "M3_Habitation_Shaft_Intro-Flare Crate-number11",
+          "num": 11,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -9726,6 +10756,150 @@
           "name": "Can of Beans",
           "id": "M3_Delta_Pier_Intro_01-Can of Beans-number2",
           "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M3_Delta_Pier_17",
+      "levelSideviews": [
+        "M3_Delta_Pier_17-sideview1",
+        "M3_Delta_Pier_17-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Can of Beans",
+          "id": "M3_Delta_Pier_17-Can of Beans-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "M3_Delta_Pier_17-Rubble-number2",
+          "num": 2,
+          "spawnchance": "49.1",
+          "textdata": [
+            "Spawn chance: 0.491"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "M3_Delta_Pier_17-Rubble-number3",
+          "num": 3,
+          "spawnchance": "49.1",
+          "textdata": [
+            "Spawn chance: 0.491"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "M3_Delta_Pier_17-Rubble-number4",
+          "num": 4,
+          "spawnchance": "49.1",
+          "textdata": [
+            "Spawn chance: 0.491"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "M3_Delta_Pier_17-Rubble-number5",
+          "num": 5,
+          "spawnchance": "49.1",
+          "textdata": [
+            "Spawn chance: 0.491"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "M3_Delta_Pier_17-Rubble-number6",
+          "num": 6,
+          "spawnchance": "49.1",
+          "textdata": [
+            "Spawn chance: 0.491"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "M3_Delta_Pier_17-Rubble-number7",
+          "num": 7,
+          "spawnchance": "49.1",
+          "textdata": [
+            "Spawn chance: 0.491"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "M3_Delta_Pier_17-Rubble-number8",
+          "num": 8,
+          "spawnchance": "49.1",
+          "textdata": [
+            "Spawn chance: 0.491"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "M3_Delta_Pier_17-Rubble-number9",
+          "num": 9,
+          "spawnchance": "49.1",
+          "textdata": [
+            "Spawn chance: 0.491"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "M3_Delta_Pier_17-Rubble-number10",
+          "num": 10,
+          "spawnchance": "49.1",
+          "textdata": [
+            "Spawn chance: 0.491"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "M3_Delta_Pier_17-Rubble-number11",
+          "num": 11,
+          "spawnchance": "49.1",
+          "textdata": [
+            "Spawn chance: 0.491"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M3_Delta_Pier_17-Can of Beans-number12",
+          "num": 12,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M3_Delta_Pier_17-Can of Beans-number13",
+          "num": 13,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M3_Delta_Pier_04",
+      "levelSideviews": [
+        "M3_Delta_Pier_04-sideview1",
+        "M3_Delta_Pier_04-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Can of Beans",
+          "id": "M3_Delta_Pier_04-Can of Beans-number1",
+          "num": 1,
           "spawnchance": "100",
           "textdata": [
             "Spawn chance: 1"
@@ -10465,24 +11639,9 @@
           ]
         },
         {
-          "name": "Table Spawner",
-          "id": "M3_Habitation_Pier_03-spawntable-number21",
-          "num": 21,
-          "spawnchance": "N/A",
-          "textdata": [
-            "Spawns 6 to 8 items",
-            "Set 1 (28.2%): Denizen_Roach",
-            "Set 2 (164%): Roach",
-            "Set 3 (42.4%): Roach",
-            "Set 4 (3.9%): Denizen_Roach_Explosive",
-            "Set 5 (100%): Roach",
-            "Set 6 (100%): Roach"
-          ]
-        },
-        {
           "name": "Flare Crate",
-          "id": "M3_Habitation_Pier_03-Flare Crate-number22",
-          "num": 22,
+          "id": "M3_Habitation_Pier_03-Flare Crate-number21",
+          "num": 21,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -10490,8 +11649,8 @@
         },
         {
           "name": "Supply Crate",
-          "id": "M3_Habitation_Pier_03-Supply Crate-number23",
-          "num": 23,
+          "id": "M3_Habitation_Pier_03-Supply Crate-number22",
+          "num": 22,
           "spawnchance": "N/A",
           "textdata": [
             "No chance data (yet)"
@@ -11123,6 +12282,33 @@
           "textdata": [
             "Spawn chance: 1"
           ]
+        },
+        {
+          "name": "Note",
+          "id": "M3_Habitation_Entryway_01-Note-number19",
+          "num": 19,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "M3_Habitation_Entryway_01-Note-number20",
+          "num": 20,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M3_Habitation_Entryway_01-Supply Crate-number21",
+          "num": 21,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
         }
       ]
     },
@@ -11283,6 +12469,51 @@
         "M3_Demo_Empty-sideview2"
       ],
       "items": []
+    },
+    {
+      "levelName": "M3_Habitation_Lab_Haunted_01",
+      "levelSideviews": [
+        "M3_Habitation_Lab_Haunted_01-sideview1",
+        "M3_Habitation_Lab_Haunted_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Note",
+          "id": "M3_Habitation_Lab_Haunted_01-Note-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M3_Habitation_Lab_Haunted_01-Can of Beans-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M3_Habitation_Lab_Haunted_01-Can of Beans-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M3_Habitation_Lab_Haunted_01-Can of Beans-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
     },
     {
       "levelName": "M3_Habitation_Lab_Ending",
@@ -12175,41 +13406,6 @@
           ]
         }
       ]
-    },
-    {
-      "levelName": "Transition_Silo_To_Pipeworks_01",
-      "levelSideviews": [
-        "Transition_Silo_To_Pipeworks_01-sideview1",
-        "Transition_Silo_To_Pipeworks_01-sideview2"
-      ],
-      "items": [
-        {
-          "name": "Piton",
-          "id": "Transition_Silo_To_Pipeworks_01-Piton-number1",
-          "num": 1,
-          "spawnchance": "100",
-          "textdata": [
-            "Spawn chance: 1"
-          ]
-        },
-        {
-          "name": "Can of Beans",
-          "id": "Transition_Silo_To_Pipeworks_01-Can of Beans-number2",
-          "num": 2,
-          "spawnchance": "100",
-          "textdata": [
-            "Spawn chance: 1"
-          ]
-        }
-      ]
-    },
-    {
-      "levelName": "Transition_Pipeworks_To_Silo",
-      "levelSideviews": [
-        "Transition_Pipeworks_To_Silo-sideview1",
-        "Transition_Pipeworks_To_Silo-sideview2"
-      ],
-      "items": []
     },
     {
       "levelName": "M2_Pipeworks_Waste_05",
@@ -13594,6 +14790,49 @@
       ]
     },
     {
+      "levelName": "Transition_Silo_To_Pipeworks_01",
+      "levelSideviews": [
+        "Transition_Silo_To_Pipeworks_01-sideview1",
+        "Transition_Silo_To_Pipeworks_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Piton",
+          "id": "Transition_Silo_To_Pipeworks_01-Piton-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "Transition_Silo_To_Pipeworks_01-Can of Beans-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "Transition_Pipeworks_To_Silo",
+      "levelSideviews": [
+        "Transition_Pipeworks_To_Silo-sideview1",
+        "Transition_Pipeworks_To_Silo-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "M2_Pipeworks_Organ_10",
+      "levelSideviews": [
+        "M2_Pipeworks_Organ_10-sideview1",
+        "M2_Pipeworks_Organ_10-sideview2"
+      ],
+      "items": []
+    },
+    {
       "levelName": "M2_Pipeworks_Organ_09",
       "levelSideviews": [
         "M2_Pipeworks_Organ_09-sideview1",
@@ -14180,6 +15419,628 @@
       ]
     },
     {
+      "levelName": "M2_Pipeworks_Organism_Exit_01",
+      "levelSideviews": [
+        "M2_Pipeworks_Organism_Exit_01-sideview1",
+        "M2_Pipeworks_Organism_Exit_01-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "M2_Pipeworks_Organism_Entry_01",
+      "levelSideviews": [
+        "M2_Pipeworks_Organism_Entry_01-sideview1",
+        "M2_Pipeworks_Organism_Entry_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Entity Scanner",
+          "id": "M2_Pipeworks_Organism_Entry_01-Entity Scanner-number1",
+          "num": 1,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M2_Pipeworks_Organism_Entry_01-Rebar-number2",
+          "num": 2,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M2_Pipeworks_Organism_Entry_01-Rebar-number3",
+          "num": 3,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Injector",
+          "id": "M2_Pipeworks_Organism_Entry_01-Injector-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M2_Pipeworks_Organism_Entry_01-Piton-number5",
+          "num": 5,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M2_Pipeworks_Organism_Entry_01-Piton-number6",
+          "num": 6,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M2_Pipeworks_Organism_06",
+      "levelSideviews": [
+        "M2_Pipeworks_Organism_06-sideview1",
+        "M2_Pipeworks_Organism_06-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Auto Piton",
+          "id": "M2_Pipeworks_Organism_06-Auto Piton-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M2_Pipeworks_Organism_06-Supply Crate-number2",
+          "num": 2,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M2_Pipeworks_Organism_06-Supply Crate-number3",
+          "num": 3,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M2_Pipeworks_Organism_05",
+      "levelSideviews": [
+        "M2_Pipeworks_Organism_05-sideview1",
+        "M2_Pipeworks_Organism_05-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "M2_Pipeworks_Organism_04",
+      "levelSideviews": [
+        "M2_Pipeworks_Organism_04-sideview1",
+        "M2_Pipeworks_Organism_04-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Note",
+          "id": "M2_Pipeworks_Organism_04-Note-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Note",
+          "id": "M2_Pipeworks_Organism_04-Note-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar-Explosive",
+          "id": "M2_Pipeworks_Organism_04-Rebar-Explosive-number3",
+          "num": 3,
+          "spawnchance": "30.6",
+          "textdata": [
+            "Spawn chance: 0.306"
+          ]
+        },
+        {
+          "name": "Auto Piton",
+          "id": "M2_Pipeworks_Organism_04-Auto Piton-number4",
+          "num": 4,
+          "spawnchance": "15",
+          "textdata": [
+            "Spawn chance: 0.15"
+          ]
+        },
+        {
+          "name": "Injector",
+          "id": "M2_Pipeworks_Organism_04-Injector-number5",
+          "num": 5,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Auto Piton",
+          "id": "M2_Pipeworks_Organism_04-Auto Piton-number6",
+          "num": 6,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M2_Pipeworks_Organism_04-Rebar-number7",
+          "num": 7,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M2_Pipeworks_Organism_04-Can of Beans-number8",
+          "num": 8,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Auto Piton",
+          "id": "M2_Pipeworks_Organism_04-Auto Piton-number9",
+          "num": 9,
+          "spawnchance": "15",
+          "textdata": [
+            "Spawn chance: 0.15"
+          ]
+        },
+        {
+          "name": "Rebar-Explosive",
+          "id": "M2_Pipeworks_Organism_04-Rebar-Explosive-number10",
+          "num": 10,
+          "spawnchance": "45.6",
+          "textdata": [
+            "Spawn chance: 0.456"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M2_Pipeworks_Organism_04-Can of Beans-number11",
+          "num": 11,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M2_Pipeworks_Organism_04-Rebar-number12",
+          "num": 12,
+          "spawnchance": "70.4",
+          "textdata": [
+            "Spawn chance: 0.704"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M2_Pipeworks_Organism_04-Can of Beans-number13",
+          "num": 13,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Injector",
+          "id": "M2_Pipeworks_Organism_04-Injector-number14",
+          "num": 14,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Trinket_Helmet",
+          "id": "M2_Pipeworks_Organism_04-Trinket_Helmet-number15",
+          "num": 15,
+          "spawnchance": "25",
+          "textdata": [
+            "Spawn chance: 0.25"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M2_Pipeworks_Organism_04-Supply Crate-number16",
+          "num": 16,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        },
+        {
+          "name": "Supply Crate",
+          "id": "M2_Pipeworks_Organism_04-Supply Crate-number17",
+          "num": 17,
+          "spawnchance": "N/A",
+          "textdata": [
+            "No chance data (yet)"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M2_Pipeworks_Organism_03",
+      "levelSideviews": [
+        "M2_Pipeworks_Organism_03-sideview1",
+        "M2_Pipeworks_Organism_03-sideview2"
+      ],
+      "items": []
+    },
+    {
+      "levelName": "M2_Pipeworks_Organism_02",
+      "levelSideviews": [
+        "M2_Pipeworks_Organism_02-sideview1",
+        "M2_Pipeworks_Organism_02-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Auto Piton",
+          "id": "M2_Pipeworks_Organism_02-Auto Piton-number1",
+          "num": 1,
+          "spawnchance": "75",
+          "textdata": [
+            "Spawn chance: 0.75"
+          ]
+        },
+        {
+          "name": "Auto Piton",
+          "id": "M2_Pipeworks_Organism_02-Auto Piton-number2",
+          "num": 2,
+          "spawnchance": "75",
+          "textdata": [
+            "Spawn chance: 0.75"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M2_Pipeworks_Organism_02-Can of Beans-number3",
+          "num": 3,
+          "spawnchance": "75",
+          "textdata": [
+            "Spawn chance: 0.75"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M2_Pipeworks_Organism_02-Can of Beans-number4",
+          "num": 4,
+          "spawnchance": "75",
+          "textdata": [
+            "Spawn chance: 0.75"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M2_Pipeworks_Organism_01",
+      "levelSideviews": [
+        "M2_Pipeworks_Organism_01-sideview1",
+        "M2_Pipeworks_Organism_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Note",
+          "id": "M2_Pipeworks_Organism_01-Note-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M2_Pipeworks_Organism_01-Can of Beans-number2",
+          "num": 2,
+          "spawnchance": "80",
+          "textdata": [
+            "Spawn chance: 0.8"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M2_Pipeworks_Organism_01-Can of Beans-number3",
+          "num": 3,
+          "spawnchance": "30",
+          "textdata": [
+            "Spawn chance: 0.3"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M2_Pipeworks_Organism_01-Can of Beans-number4",
+          "num": 4,
+          "spawnchance": "30",
+          "textdata": [
+            "Spawn chance: 0.3"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M2_Pipeworks_Organism_01-Can of Beans-number5",
+          "num": 5,
+          "spawnchance": "60",
+          "textdata": [
+            "Spawn chance: 0.6"
+          ]
+        },
+        {
+          "name": "Auto Piton",
+          "id": "M2_Pipeworks_Organism_01-Auto Piton-number6",
+          "num": 6,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Auto Piton",
+          "id": "M2_Pipeworks_Organism_01-Auto Piton-number7",
+          "num": 7,
+          "spawnchance": "86",
+          "textdata": [
+            "Spawn chance: 0.86"
+          ]
+        },
+        {
+          "name": "Injector",
+          "id": "M2_Pipeworks_Organism_01-Injector-number8",
+          "num": 8,
+          "spawnchance": "86",
+          "textdata": [
+            "Spawn chance: 0.86"
+          ]
+        },
+        {
+          "name": "Injector",
+          "id": "M2_Pipeworks_Organism_01-Injector-number9",
+          "num": 9,
+          "spawnchance": "50.2",
+          "textdata": [
+            "Spawn chance: 0.502"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M2_Pipeworks_Organism_01-Piton-number10",
+          "num": 10,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M2_Pipeworks_Organism_01-Piton-number11",
+          "num": 11,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M2_Pipeworks_Organism_01-Rebar-number12",
+          "num": 12,
+          "spawnchance": "54.1",
+          "textdata": [
+            "Spawn chance: 0.541"
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M2_Pipeworks_Break_01",
+      "levelSideviews": [
+        "M2_Pipeworks_Break_01-sideview1",
+        "M2_Pipeworks_Break_01-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Can of Beans",
+          "id": "M2_Pipeworks_Break_01-Can of Beans-number1",
+          "num": 1,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
+          ]
+        },
+        {
+          "name": "Bean Bar",
+          "id": "M2_Pipeworks_Break_01-Bean Bar-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1",
+            "Does not spawn on load.",
+            "Likely uses a trigger or otherwise."
+          ]
+        }
+      ]
+    },
+    {
+      "levelName": "M2_Pipeworks_Drainage_11",
+      "levelSideviews": [
+        "M2_Pipeworks_Drainage_11-sideview1",
+        "M2_Pipeworks_Drainage_11-sideview2"
+      ],
+      "items": [
+        {
+          "name": "Piton",
+          "id": "M2_Pipeworks_Drainage_11-Piton-number1",
+          "num": 1,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "M2_Pipeworks_Drainage_11-Rubble-number2",
+          "num": 2,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "M2_Pipeworks_Drainage_11-Rubble-number3",
+          "num": 3,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rubble",
+          "id": "M2_Pipeworks_Drainage_11-Rubble-number4",
+          "num": 4,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M2_Pipeworks_Drainage_11-Rebar-number5",
+          "num": 5,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M2_Pipeworks_Drainage_11-Piton-number6",
+          "num": 6,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M2_Pipeworks_Drainage_11-Piton-number7",
+          "num": 7,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "PillBottle",
+          "id": "M2_Pipeworks_Drainage_11-PillBottle-number8",
+          "num": 8,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "SlugGrub",
+          "id": "M2_Pipeworks_Drainage_11-SlugGrub-number9",
+          "num": 9,
+          "spawnchance": "24.9",
+          "textdata": [
+            "Spawn chance: 0.249"
+          ]
+        },
+        {
+          "name": "Floppy Disk",
+          "id": "M2_Pipeworks_Drainage_11-Floppy Disk-number10",
+          "num": 10,
+          "spawnchance": "10.4",
+          "textdata": [
+            "Spawn chance: 0.104"
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M2_Pipeworks_Drainage_11-Rebar-number11",
+          "num": 11,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M2_Pipeworks_Drainage_11-Can of Beans-number12",
+          "num": 12,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Can of Beans",
+          "id": "M2_Pipeworks_Drainage_11-Can of Beans-number13",
+          "num": 13,
+          "spawnchance": "",
+          "textdata": [
+            "No spawn chance found."
+          ]
+        },
+        {
+          "name": "Rebar",
+          "id": "M2_Pipeworks_Drainage_11-Rebar-number14",
+          "num": 14,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Piton",
+          "id": "M2_Pipeworks_Drainage_11-Piton-number15",
+          "num": 15,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        }
+      ]
+    },
+    {
       "levelName": "M2_Pipeworks_Drainage_10",
       "levelSideviews": [
         "M2_Pipeworks_Drainage_10-sideview1",
@@ -14617,6 +16478,15 @@
           "textdata": [
             "Spawn chance: 1"
           ]
+        },
+        {
+          "name": "Note",
+          "id": "M2_Pipeworks_Drainage_08-Note-number14",
+          "num": 14,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
         }
       ]
     },
@@ -14944,9 +16814,18 @@
           ]
         },
         {
-          "name": "Rho Stone",
-          "id": "M2_Pipeworks_Drainage_06-Rho Stone-number19",
+          "name": "Note",
+          "id": "M2_Pipeworks_Drainage_06-Note-number19",
           "num": 19,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Rho Stone",
+          "id": "M2_Pipeworks_Drainage_06-Rho Stone-number20",
+          "num": 20,
           "spawnchance": "15",
           "textdata": [
             "Spawn chance: 0.15"
@@ -14954,8 +16833,8 @@
         },
         {
           "name": "Table Spawner",
-          "id": "M2_Pipeworks_Drainage_06-spawntable-number20",
-          "num": 20,
+          "id": "M2_Pipeworks_Drainage_06-spawntable-number21",
+          "num": 21,
           "spawnchance": "N/A",
           "textdata": [
             "Spawns 6 to 8 items",
@@ -15264,9 +17143,18 @@
           ]
         },
         {
-          "name": "Injector",
-          "id": "M2_Pipeworks_Drainage_02-Injector-number10",
+          "name": "Note",
+          "id": "M2_Pipeworks_Drainage_02-Note-number10",
           "num": 10,
+          "spawnchance": "100",
+          "textdata": [
+            "Spawn chance: 1"
+          ]
+        },
+        {
+          "name": "Injector",
+          "id": "M2_Pipeworks_Drainage_02-Injector-number11",
+          "num": 11,
           "spawnchance": "14.8",
           "textdata": [
             "Spawn chance: 0.148"
@@ -15342,37 +17230,6 @@
           "spawnchance": "12.3",
           "textdata": [
             "Spawn chance: 0.123"
-          ]
-        }
-      ]
-    },
-    {
-      "levelName": "M2_Pipeworks_Break_01",
-      "levelSideviews": [
-        "M2_Pipeworks_Break_01-sideview1",
-        "M2_Pipeworks_Break_01-sideview2"
-      ],
-      "items": [
-        {
-          "name": "Can of Beans",
-          "id": "M2_Pipeworks_Break_01-Can of Beans-number1",
-          "num": 1,
-          "spawnchance": "100",
-          "textdata": [
-            "Spawn chance: 1",
-            "Does not spawn on load.",
-            "Likely uses a trigger or otherwise."
-          ]
-        },
-        {
-          "name": "Bean Bar",
-          "id": "M2_Pipeworks_Break_01-Bean Bar-number2",
-          "num": 2,
-          "spawnchance": "100",
-          "textdata": [
-            "Spawn chance: 1",
-            "Does not spawn on load.",
-            "Likely uses a trigger or otherwise."
           ]
         }
       ]
@@ -16728,6 +18585,14 @@
           ]
         }
       ]
+    },
+    {
+      "levelName": "M1_Silos_Storage_19",
+      "levelSideviews": [
+        "M1_Silos_Storage_19-sideview1",
+        "M1_Silos_Storage_19-sideview2"
+      ],
+      "items": []
     },
     {
       "levelName": "M1_Silos_Storage_17",
