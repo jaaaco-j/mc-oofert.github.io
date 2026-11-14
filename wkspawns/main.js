@@ -8,6 +8,61 @@ const searchbaritem = document.getElementById("searchbar2");
 var levelTerms = [];
 var itemTerms = [];
 
+
+// Add Only stuff that isn't already a substring of the internal name (eg. no "Grub" for "SlugGrub" or "SamGrub")
+// Lower case, no whitespace
+// An unspecific alias can map to multiple items (eg. "food" may map to all food items)
+// Below are just suggestions, feel free to modify
+const aliases = {
+
+    // Items
+    "Piton": [], 
+    "Rebar": [],
+    "Can of Beans": ["food"], 
+    "Hammer": [], 
+    "Supply Crate": ["itemcrate", "itembox"], 
+    "Note": ["paper"], 
+    "Temp": [], 
+    "Flashlight": ["lamp"], 
+    "Handwheel": ["valve"], 
+    "Key": [], 
+    "Injector": ["syringe"], 
+    "Auto Piton": [], 
+    "Entity Scanner": [], 
+    "Powercell": [], 
+    "Wrench": ["hammer"], 
+    "Blink Eye": ["rhoeye", "p-eye"], // technically not true lorewise but you do get these from rho altars so...
+    "Rubble": ["brick"], 
+    "Hot Cocoa": ["cup", "food"], 
+    "Bean Bar": ["foodbar"], // "food" already included in "foodbar"
+    "Milk": ["food"], 
+    "Roach": [], 
+    "SlugGrub": ["caterpillar"], 
+    "cryogun": [""],
+    "Floppy Disk": ["save","extralife","oneup"], 
+    "SamGrub": [], 
+    "Table Spawner": [], 
+    "Flare Crate": ["ammocrate", "flarebox"], 
+    "Rebar-Explosive": ["explosiverebar"], 
+    "Trinket_Beta": [], 
+    "10mm Ammo": ["ammunition"], 
+    "Handgun": [], 
+    "flaregun": [], 
+    "PillBottle": ["pills"], 
+    "Rho Stone": [], 
+    "Flaregun Ammo": [], 
+    "Timepiece": ["watch"], 
+    "Translocator": ["blink"], 
+    "Artifact Remote": ["delta-0229"], 
+    "Rapier": ["delta-0355n"], 
+    "Artifact Glove": ["astronautglove", "delta-0451B"], 
+    "Can of What": ["pbeans", "p-beans", "peripherybeans", "delta-0052"], // the item that made me make the aliases :P
+    "Trinket_Helmet": [], 
+    
+    // Todo: Levels (maybe should reverse the aliasing for those, as people usually search nonspecific like "Delta labs" instead of specific tile)
+};
+
+
 searchbar.onchange = function() {
     m.redraw();
 }
@@ -61,6 +116,15 @@ function CollapsibleClicked(event) {
 
 function ArrIncludes(array, string) {
     for(let i = 0; i < array.length; i++) {
+        if(array[i].includes(string)) {
+            return true
+        }
+    }
+    return false;
+}
+
+function StrIncludes(array, string) {
+    for(let i = 0; i < array.length; i++) {
         if(string.includes(array[i])) {
             return true
         }
@@ -68,29 +132,46 @@ function ArrIncludes(array, string) {
     return false;
 }
 
+
+function LookupAlias(aliases, string) {
+    terms = []
+    for(let key in aliases) {
+        if(ArrIncludes(aliases[key],string) || key.toLowerCase().replace(/\s+/g, '').includes(string))
+            terms.push(key)
+    }
+    return terms
+}
+
 m.render(intro, [m("p", ["White Knuckle item spawns for version ", m("b", m("i",jsonresult.version)), ". Items may be out of bounds or otherwise invisible. No guarantees. Might contain bad data, still in progress. Does not contain/account for other forms of item spawns. Also, a machine doesnt really know how to make a good screenshot but whatever."])])
 var ToCComponent = {
     view: function() {
         try {
             var tocContents = [];
-            
+
             if(searchbar.value) {          
                 levelTerms = searchbar.value.split(",")
-                levelTerms = levelTerms.map(str => str.trim().toLowerCase())
+                levelTerms = levelTerms.map(str => str.toLowerCase().replace(/\s+/g, ''))
             } else levelTerms = [];
             if(searchbaritem.value) {
                 itemTerms = searchbaritem.value.split(",")
-                itemTerms = itemTerms.map(str => str.trim().toLowerCase())
+                itemTerms = itemTerms.map(str => str.toLowerCase().replace(/\s+/g, ''))
+                var temp = [];
+                for(let i in itemTerms) {
+                    temp = temp.concat(LookupAlias(aliases,itemTerms[i]))
+                }
+                itemTerms = temp
             } else itemTerms = [];
-            console.log(levelTerms,itemTerms,"first");
+            console.log(itemTerms,levelTerms)
+            // Todo: same thing as above for levels once aliases for those get implemented
+
             for (let levelIndex = jsonresult.levels.length-1; levelIndex >= 0; levelIndex--) {
                 const level = jsonresult.levels[levelIndex];
-                if(levelTerms.length > 0 && !ArrIncludes(levelTerms,level.levelName.toLowerCase())) {continue;}
+                if(levelTerms.length > 0 && !StrIncludes(levelTerms,level.levelName.toLowerCase())) {continue;}
                 if(itemTerms.length > 0) {
                     var containsItem = false;
                     for (let itemIndex = 0; itemIndex < level.items.length; ++itemIndex) {
                         const item = level.items[itemIndex];
-                        if(!ArrIncludes(itemTerms,item.name.toLowerCase())) {continue;}
+                        if(!ArrIncludes(itemTerms,item.name)) {continue;}
                         containsItem = true;
                     }
                     if(!containsItem) {continue;}
@@ -109,11 +190,10 @@ var LevelListComp = {
     view: function() {
         try{
             var output = []
-            console.log(levelTerms,itemTerms,"second");
             for (let levelIndex = 0; levelIndex < jsonresult.levels.length; ++levelIndex) {
                 const level = jsonresult.levels[levelIndex];
                 const levelName = ""+level.levelName;
-                if(levelTerms.length > 0 && !ArrIncludes(levelTerms,levelName.toLowerCase())) {continue;}
+                if(levelTerms.length > 0 && !StrIncludes(levelTerms,levelName.toLowerCase())) {continue;}
                 function doHeading() {
                     output.push(m("h1", {id: levelName}, levelName));    
                     output.push(m("div", [m("button", {class: "collapsible", onclick: CollapsibleClicked}, m("span", "Show/hide level sideview... (experimental)")), m("div", {class: "sideviewImage"}, m("img", {class: "firstVariant", src: `wkpictures/${level.levelSideviews[0]}.png`, loading: "lazy", onclick: SideviewButtonClicked}))]));
@@ -121,7 +201,7 @@ var LevelListComp = {
                 var levelResult = [];
                 for (let itemIndex = 0; itemIndex < level.items.length; ++itemIndex) {
                     const item = level.items[itemIndex];
-                    if(itemTerms.length > 0 && !ArrIncludes(itemTerms,item.name.toLowerCase())) {continue;}
+                    if(itemTerms.length > 0 && !ArrIncludes(itemTerms,item.name)) {continue;}
                     levelResult.push(m("tr", [
                         m("td", [m("div", {class: "itemData"}, MakeItemData(item))]),
                         m("td", {class: "itemPictureContainer normal"}, [m("img", {class: "itemPicture", src: `wkpictures/${item.id}.jpg`, loading: "lazy", onclick: ItemImageClicked})]),
